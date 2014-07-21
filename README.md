@@ -14,7 +14,6 @@ YandexPddApi
 require 'YandexPddApi.php';
 
 $mail = new YandexPddApi("token");
-
 ```
 
 Регистрация пользователя (принимает две переменные: логин и пароль (опционально))
