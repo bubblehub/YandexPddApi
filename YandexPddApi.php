@@ -18,12 +18,12 @@ class YandexPddApi {
 
 	// Генерация пароля
 
-	protected function generate_password() {
+	public function generate_password() {
 
 		return mt_rand(111111, 999999);
 	}
 
-	private function query($url) {
+	protected function query($url) {
 
 		if (!$this->useCURL) {
 			return file_get_contents($url);
@@ -42,7 +42,7 @@ class YandexPddApi {
 		}
 	}
 
-	private function parse_query($query) {
+	protected function parse_query($query) {
 
 		$parsed_query = [];
 
