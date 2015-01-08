@@ -47,4 +47,11 @@ $api->email()->edit([
 $api->email()->del(['domain' => 'example.com', 'login' => 'John_Doe']);
 ```
 
+Работа с API от имени регистратора
+------
+```php
+$api = new \Somepony\YandexPddApi\API('pdd_token', 'oauth_token');
+$api->registrar()->domain()->registrationStatus('domain' => 'example.com');
+```
+
 Остальную информацию можно найти в [официальной документации](https://tech.yandex.ru/pdd/doc/about-docpage/).
