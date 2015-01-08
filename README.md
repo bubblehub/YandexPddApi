@@ -41,3 +41,5 @@ $api->email()->edit([
 
 Удаление почтового ящика<br />
 `$api->email()->del(['domain' => 'example.com', 'login' => 'John_Doe']);`
+
+Остальную информацию можно найти в [официальной документации](https://tech.yandex.ru/pdd/doc/about-docpage/).
