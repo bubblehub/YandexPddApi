@@ -35,7 +35,7 @@ $api->email()->edit([
     # Секретный вопрос
     'hintq' => 'Do you like apples?',
     # Ответ на секретный вопрос
-    'hinta' => 'Yes',
+    'hinta' => 'Yes'
 ]);
 ```
 
