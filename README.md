@@ -6,6 +6,14 @@ Lightweight and simple pdd.yandex.ru API wrapper.
 Для работы работы с API нужно [получить](https://pddimp.yandex.ru/api2/admin/get_token) токен.
 
 ```
+{
+    "require": {
+        "somepony/yandexpddapi": "dev-master"
+    }
+}
+```
+
+```
 <?php
 
 require_once 'vendor/autoload.php';
