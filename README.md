@@ -21,7 +21,7 @@ $api = new \Somepony\YandexPddApi\API('token');
 
 Регистрация нового почтового ящика<br />
 ```php
-$api->email()->add(['domain' => 'example.com', 'username' => 'John_Doe', 'password' => 'strongpassword']);
+$api->email()->add(['domain' => 'example.com', 'login' => 'John_Doe', 'password' => 'strongpassword']);
 ```
 
 Редактирование существующего почтового ящика<br />
